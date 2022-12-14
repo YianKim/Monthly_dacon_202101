@@ -11,7 +11,7 @@ Um, T. T., Babakeshizadeh, V., & Kulić, D. (2017, September). Exercise motion c
 
 ### 2. 주어진 데이터를 어떻게 Input으로 넣을 것인가?
 
-![image](https://user-images.githubusercontent.com/75729975/207480682-e1f4bc84-dddc-4cd6-8d04-fb10945fe3b6.png)
+![image](https://user-images.githubusercontent.com/75729975/207480682-e1f4bc84-dddc-4cd6-8d04-fb10945fe3b6.png)\
 데이터가 600단위의 시간동안 기록된 형태이며, 600행별로 Label이 하나씩 부여가 되어있다.
 
 이 데이터를 그냥 원래 형태 그대로 사용 할 것인지, 아니면 논문의 그림처럼 reshape해서 사용할 것인지, 혹은 Flatten해서 사용할 것인지를 결정하는 과정이 있었고, 결론적으론 원래 형태 그대로 사용한 것에 1dcnn을 사용한 것의 효과가 좋았다.
